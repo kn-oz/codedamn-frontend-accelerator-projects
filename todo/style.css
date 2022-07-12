@@ -1,0 +1,104 @@
+#root {
+    box-sizing: border-box;
+    background: rgb(236,44,44);
+background: linear-gradient(90deg, rgba(236,44,44,1) 0%, rgba(233,153,61,1) 52%);
+font-family: sans-serif;
+}
+
+#title {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#todo-form {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+#todo-input {
+    outline: none;
+    width: 360px;
+}
+
+#submit-button {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#todo-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.todo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.todo-task {
+    margin: 4px;
+    background-color: white;
+    width: 360px;
+    padding: 5px;
+    border-radius: 2px
+}
+
+button {
+    display: inline-block;
+    height: 32px;
+}
+
+.check-button, .delete-button {
+    border: none;
+    font-size: 36px;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+
+.check-button:hover {
+    background-color: #ade9ad
+}
+
+.check-button:active {
+    background-color: rgb(83, 235, 83);
+}
+
+.done {
+    background-color: lightgreen;
+}
+
+.delete-button:hover {
+    background-color: rgb(223, 66, 66);
+}
+
+.delete-button:active {
+    background-color: rgb(214, 5, 5)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
